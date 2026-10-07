@@ -1,9 +1,9 @@
 {
-  "version": "1.12.0",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.0/claude-egress-1.12.0-macos.zip",
-  "sha256": "df2ca3bdbadd91feaee61e64d78ffb2de0db72104f57870b09e41c8fede1310f",
-  "size": 759131,
-  "notes": "- **Claude живёт ровно столько, сколько работает прокси.** Все сессии Claude Code\n  и Claude Desktop закрываются, если окно Claude Egress закрыто кнопкой Quit,\n  упало или было убито, если relay остановился, если через сервер перестали\n  отвечать и проверка IP, и Anthropic (две проверки подряд, около 10 секунд), или\n  если сервер показал не тот IP. Падение окна замечает сам relay и закрывает\n  Claude до того, как остановиться. Сбой одного сервиса (недоступен только ipify\n  или только Anthropic) Claude не закрывает: это не поломка прокси.\n- Ошибка отдельного соединения в логе (сайт отказал, нет IPv6) больше не красит\n  статус в красный; тревога — только при сбое самого relay.\n- Новый вид в цветах панелей Jarvis: одна скруглённая карточка на всё окно,\n  бирюзовый акцент, приглушённые подписи, строчные надписи, фон терминала.\n- `relay.log` создаётся и держится с правами 600: в нём адреса посещённых сайтов.",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.0/claude-egress-1.12.0-macos.dmg",
+  "version": "1.12.1",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.1/claude-egress-1.12.1-macos.zip",
+  "sha256": "edd72f2a5e5671a786799c6c97662759c252027345d8216ca0a604b3aa58b6b3",
+  "size": 759206,
+  "notes": "- Выбранная кнопка и пункт меню больше не заливаются бирюзовым: в некоторых\n  темах тёмный текст на заливке сливался с ней. Теперь выбор — бирюзовый жирный\n  подчёркнутый текст на фоне терминала.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.1/claude-egress-1.12.1-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
