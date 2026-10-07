@@ -16,10 +16,13 @@ No server is bundled. The app ships with no addresses and no passwords: on first
 
 ## Install
 
-1. Download `claude-egress-<version>.zip` from the [latest release](../../releases/latest).
-2. Move **Claude Egress.app** to Applications and open it.
+1. Download **`claude-egress-<version>-macos.dmg`** from the [latest release](../../releases/latest).
+2. Open it and drag **Claude Egress** onto Applications.
+3. Open it from Applications.
 
 The app is signed with a Developer ID and notarised by Apple, so it opens straight away. It updates itself afterwards, with your say-so.
+
+<sub>The release also carries `…-macos.zip`, which is what the built-in updater downloads. Either one installs the same app.</sub>
 
 ## First run
 
