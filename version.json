@@ -1,9 +1,9 @@
 {
-  "version": "1.9.0",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.9.0/claude-egress-1.9.0-macos.zip",
-  "sha256": "504ece2e601425569008be72bd7bde2623e007c163ccde2504cab4cb5f9fbbc5",
-  "size": 752412,
-  "notes": "- **Disk image.** Релиз теперь содержит `claude-egress-<версия>-macos.dmg`: окно\n  с приложением и «Программами» рядом, перетащил и готово. Образ подписан,\n  нотаризован и застейплен отдельно от приложения.\n- Имена файлов релиза получили платформу и формат:\n  `claude-egress-<версия>-macos.dmg` и `-macos.zip`. Место под сборку для\n  Windows в том же релизе зарезервировано.\n- Автообновление по-прежнему скачивает",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.9.0/claude-egress-1.9.0-macos.dmg",
+  "version": "1.10.0",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.10.0/claude-egress-1.10.0-macos.zip",
+  "sha256": "f8a5c3151f4ade33d91d6ef92c5c02a40ab9bc6e4073345a9a10d79e8dddcd4c",
+  "size": 753661,
+  "notes": "- **Кнопка Browser всегда открывает собственный профиль Chrome**, направленный\n  прямо в relay. Раньше открывался браузер по умолчанию, а его системный прокси\n  может быть перехвачен расширением — на реальной машине так и случилось: PAC\n  стоял и был активен, а Chrome ходил напрямую со своим IP. Собственный профиль\n  расширений не содержит и от системных настроек не зависит.\n- **Вход CLI** получает `BROWSER`, указывающий на тот же профиль: инструменты,\n  которые эту переменную учитывают, откроют страницу входа уже через сервер.\n- **«PAC ни разу не запрошен»** на главном экране. Программа знала, что ни один\n  браузер файл не скачал, но писала «all sites through the server». Теперь\n  расхождение видно сразу, без разбирательств.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.10.0/claude-egress-1.10.0-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
