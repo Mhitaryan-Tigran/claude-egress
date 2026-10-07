@@ -1,8 +1,8 @@
 {
-  "version": "1.6.0",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.6.0/claude-egress-1.6.0.zip",
-  "sha256": "6937409b3c0703044e114269fcdc25caca777847151ce97ae71b6d3d26760c70",
-  "size": 748226,
-  "notes": "- **Иконка приложения.** Отдельный упрощённый рисунок для 16 и 32 пунктов, где\n  полный глиф превращался в пятно.\n- **Кнопка Report.** Собирает",
+  "version": "1.6.1",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.6.1/claude-egress-1.6.1.zip",
+  "sha256": "8f5d1eaa2db7c51f451c46641e652a320fdcfe7441e555f23207297444e8f1da",
+  "size": 750391,
+  "notes": "- Исправлен запуск: сборка 1.6.0 не содержала `diagnostics.mjs` и падала с\n  `ERR_MODULE_NOT_FOUND` сразу при старте. Список файлов релиза больше не\n  ведётся руками — он выводится из графа импортов, а сборка отказывается\n  завершаться, если в собранном приложении не хватает хотя бы одного модуля.",
   "minimumSystemVersion": "13.0"
 }
