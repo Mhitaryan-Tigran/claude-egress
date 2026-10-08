@@ -1,9 +1,9 @@
 {
-  "version": "1.15.0",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.0/claude-egress-1.15.0-macos.zip",
-  "sha256": "902bf20c090bf39501cb6690a0590937eb61b753351476cc912ae4fbc09e14d5",
-  "size": 768136,
-  "notes": "- Kill switch для macOS: переключатель на главном экране. Пока он включён,\n  файрвол macOS не пускает этот Mac к Anthropic напрямую, поэтому Claude,\n  запущенный в обход Egress или через VPN, просто не подключится. Через\n  Egress всё работает. Правило сохраняется после перезагрузки, включение и\n  выключение спрашивают пароль администратора. Окно проверяет, что прямой\n  доступ действительно закрыт.",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.0/claude-egress-1.15.0-macos.dmg",
+  "version": "1.15.1",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.1/claude-egress-1.15.1-macos.zip",
+  "sha256": "3d10521e1f71400a6afcbb66ae73bf21a5ab204412db814df9933d6ef139eb5b",
+  "size": 765140,
+  "notes": "- Возврат к 1.14.0: kill switch из 1.15.0 убран вместе с правилом файрвола.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.1/claude-egress-1.15.1-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
