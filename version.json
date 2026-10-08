@@ -1,9 +1,9 @@
 {
-  "version": "1.15.1",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.1/claude-egress-1.15.1-macos.zip",
-  "sha256": "3d10521e1f71400a6afcbb66ae73bf21a5ab204412db814df9933d6ef139eb5b",
-  "size": 765140,
-  "notes": "- Возврат к 1.14.0: kill switch из 1.15.0 убран вместе с правилом файрвола.",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.1/claude-egress-1.15.1-macos.dmg",
+  "version": "1.16.0",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.16.0/claude-egress-1.16.0-macos.zip",
+  "sha256": "858c1973bef6d0685626a1411142f5cea2c6b6419a16e1dbcf232d455a37f973",
+  "size": 769177,
+  "notes": "- Две вкладки: **apps** и **browser** (Tab или мышь). На каждой — строка\n  «всё в порядке или нет» и переключатель из трёх режимов.\n- Приложения: `Claude only` (как раньше), `everything` — весь трафик Mac\n  через сервер или прокси (TUN, нужен пароль администратора, VPN должен\n  быть выключен), `off` — Claude работает как без утилиты.\n- Браузер: прежние режимы `Claude only`, `all sites`, `off`.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.16.0/claude-egress-1.16.0-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
