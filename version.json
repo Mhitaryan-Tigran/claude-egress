@@ -1,9 +1,9 @@
 {
-  "version": "1.12.2",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.2/claude-egress-1.12.2-macos.zip",
-  "sha256": "f1da506f13553c0a6b554d02b2c690873808b6a783e5cca67bab908f6300bacd",
-  "size": 759555,
-  "notes": "- После обновления окно могло показать «Another window is already serving the\n  browser proxy», хотя маршрут браузера работал: помощник версии 1.11 терял\n  метку сессии в своём журнале, и новое окно его не узнавало. Теперь метка не\n  теряется, а такой помощник подхватывается и без неё, если relay той же\n  сессии жив. «Re-check» тоже сначала подхватывает работающий помощник, а не\n  запускает второй.",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.12.2/claude-egress-1.12.2-macos.dmg",
+  "version": "1.13.0",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.13.0/claude-egress-1.13.0-macos.zip",
+  "sha256": "f6bd6dab8c3c7c202d295719d6765988b44d9a3c7025b91779bb626f13ba3ec4",
+  "size": 762924,
+  "notes": "- Соединения с сервером открываются заранее: два проверенных TLS-канала\n  ждут наготове, поэтому новый запрос Claude не тратит время на рукопожатие,\n  а сбой рукопожатия при подготовке канала не доходит до приложения. Обрывы\n  уже установленных соединений больше не засоряют журнал как ошибки.\n- Если на сетевой службе остался PAC самой утилиты от окна, завершённого\n  аварийно, браузерный режим больше не отказывается с «A system proxy is\n  already configured»: такой PAC заменяется, а при выходе выключается.\n- Кнопка terminal внутри herdr открывает Claude Code новой вкладкой herdr,\n  в остальных случаях — как раньше, в Terminal.\n- Вопрос об очистке данных Claude и папка проекта спрашиваются только при\n  первом запуске. Очистку можно вызвать снова, запустив с `--cleanup`.\n- Журнал `relay.log` больше 2 МБ при запуске переносится в `relay.log.1`.\n- Запись и восстановление браузерного PAC при отказе без прав запрашивают\n  настоящую авторизацию macOS; восстановление после переезда на новый Mac\n  пропускает отсутствующие сетевые службы и не трогает более новый PAC\n  пользователя или VPN.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.13.0/claude-egress-1.13.0-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
