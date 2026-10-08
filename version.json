@@ -1,9 +1,9 @@
 {
-  "version": "1.14.0",
-  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.14.0/claude-egress-1.14.0-macos.zip",
-  "sha256": "213f2ea07531e2f59a27f146fb8b1db72817f7586cb67389cf7fd72f18f1a72c",
-  "size": 765103,
-  "notes": "- Вместо своего сервера можно указать готовый HTTP- или SOCKS5-прокси:\n  «Add a server → Use an HTTP or SOCKS5 proxy», адрес, порт, логин и\n  пароль. Утилита показывает IP, который видит Claude через этот прокси, и\n  после подтверждения работает с ним так же, как с сервером: только через\n  него, мимо VPN, без прямого запасного пути.",
-  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.14.0/claude-egress-1.14.0-macos.dmg",
+  "version": "1.15.0",
+  "zip": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.0/claude-egress-1.15.0-macos.zip",
+  "sha256": "902bf20c090bf39501cb6690a0590937eb61b753351476cc912ae4fbc09e14d5",
+  "size": 768136,
+  "notes": "- Kill switch для macOS: переключатель на главном экране. Пока он включён,\n  файрвол macOS не пускает этот Mac к Anthropic напрямую, поэтому Claude,\n  запущенный в обход Egress или через VPN, просто не подключится. Через\n  Egress всё работает. Правило сохраняется после перезагрузки, включение и\n  выключение спрашивают пароль администратора. Окно проверяет, что прямой\n  доступ действительно закрыт.",
+  "dmg": "https://github.com/Mhitaryan-Tigran/claude-egress/releases/download/v1.15.0/claude-egress-1.15.0-macos.dmg",
   "minimumSystemVersion": "13.0"
 }
